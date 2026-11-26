@@ -1,0 +1,29 @@
+{
+  "manifestVersion": 2,
+  "id": "phosphor-green",
+  "name": "Phosphor Green",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "An Orca app and terminal theme inspired by 1980s green-phosphor CRT displays.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "capabilities": [],
+  "contributes": {
+    "themes": [
+      {
+        "id": "phosphor-green",
+        "title": "Phosphor Green",
+        "path": "themes/phosphor-green.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "phosphor-green",
+        "title": "Phosphor Green",
+        "path": "terminal/phosphor-green.json"
+      }
+    ]
+  }
+}
